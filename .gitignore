@@ -1,0 +1,5 @@
+*.swp
+*.csv
+*.csv#
+test.txt
+*.pyc
