@@ -1,11 +1,13 @@
 import pandas as pd
 import re
 
+from collections import OrderedDict
+
 class TestSubject:
     """
     TestSubject{
         subject: username,
-        stimuli:{
+        data:{
             stimulus_name:{
                 Fixation: dataframe,
                 Saccades: dataframe,
@@ -29,13 +31,13 @@ class TestSubject:
             #'UserEvent': userevents_headers
             }
 
-    subject = ""
-    stimuli = {}
+    subject = None
+    data = None
     source = None
 
     def read_file(self):
         f = open(self.source, 'r')
-        list_of_series = {}
+        list_of_series = dict()
         stimulus = "NaN"
 
         for line in f:
@@ -49,26 +51,32 @@ class TestSubject:
             if id == 'UserEvent' and line[-1][-3:] in ['jpg', 'png']:
                 stimulus = line[-1].split(' ')[-1]
 
-            if stimulus is not "NaN" and stimulus not in self.stimuli:
-                self.stimuli[stimulus] = {}
+            if stimulus is not "NaN" and stimulus not in self.data:
+                self.data[stimulus] = dict()
 
             if id in self.headers.keys():
-                if self.stimuli[stimulus].get(id) is not None:
-                    self.stimuli[stimulus][id].append(line)
+                if self.data[stimulus].get(id) is not None:
+                    self.data[stimulus][id].append(line)
                 else:
-                    self.stimuli[stimulus][id] = []
+                    self.data[stimulus][id] = list()
 
-
-    def get_events(self):
+    @property
+    def events(self):
         return list(self.headers.keys())
 
-    def get_stimuli(self):
-        return list(self.stimuli.keys())
+    @property
+    def stimuli(self):
+        return list(self.data.keys())
+
+    @property
+    def stimuli_order(self):
+        return [ (self.subject, stimulus) for stimulus in self.stimuli ]
 
     def get_data(self, stimulus, key):
-        return pd.DataFrame(self.stimuli[stimulus].get(key), columns=self.headers.get(key))
+        return pd.DataFrame(self.data[stimulus].get(key), columns=self.headers.get(key))
 
 
     def __init__(self, source_file):
         self.source = source_file
+        self.data = OrderedDict()
         self.read_file()
