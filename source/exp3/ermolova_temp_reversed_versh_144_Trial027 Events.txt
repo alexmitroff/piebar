@@ -1,0 +1,20 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\versh-eye_data.idf
+Date:	17.04.2019 03:56:21
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	versh
+Description:	Run2
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	7884968767	# Message: Questionnaire17.jpg
+UserEvent	1	2	7886602572	# Message: UE-mouseclick left x=411 y=303
+UserEvent	1	3	7887130576	# Message: UE-mouseclick left x=414 y=388

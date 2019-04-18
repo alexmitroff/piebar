@@ -1,0 +1,19 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Ira-eye_data.idf
+Date:	17.04.2019 03:52:43
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Ira
+Description:	Run12
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	32	1	2634967835	# Message: RichText1.jpg
+UserEvent	32	2	2636755530	# Message: ExC:Webcam stop

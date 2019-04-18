@@ -1,0 +1,28 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\versh-eye_data.idf
+Date:	17.04.2019 03:53:47
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	versh
+Description:	Run31
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	8099713529	# Message: experiment-03.jpg
+Fixation L	1	1	8099993320	8100165232	171912	8.70	34.79	360	781	-1	1.87	1.87
+Fixation R	1	1	8099993320	8100165232	171912	8.70	34.79	360	781	-1	3.20	3.20
+Fixation L	1	2	8100297235	8100485194	187959	379.99	708.55	15	37	-1	14.10	14.10
+Fixation R	1	2	8100297235	8100485194	187959	379.99	708.55	15	37	-1	13.97	13.97
+Saccade L	1	1	8100553239	8100581203	27964	328.58	844.57	358.52	855.53	0.66	46.49	0.28	23.67	4368.40	-1693.19	1399.70
+Saccade R	1	1	8100553239	8100581203	27964	328.58	844.57	358.52	855.53	0.66	46.49	0.28	23.67	4368.40	-1693.19	1399.70
+Saccade L	1	2	8100581203	8100677199	95996	358.52	855.53	0.00	0.00	67.15	2066.36	0.50	699.53	68196.65	-75247.85	36062.15
+Saccade R	1	2	8100581203	8100677199	95996	358.52	855.53	0.00	0.00	67.15	2066.36	0.50	699.53	68196.65	-75247.85	36062.15
+Fixation L	1	3	8100677199	8101061231	384032	0.00	0.00	0	0	-1	13.71	13.71
+Fixation R	1	3	8100677199	8101061231	384032	0.00	0.00	0	0	-1	14.19	13.80

@@ -1,0 +1,29 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Dasha-eye_data.idf
+Date:	17.04.2019 03:53:25
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Dasha
+Description:	Run24
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	11153970707	# Message: experiment-13.jpg
+Fixation L	1	1	11154905441	11155001448	96007	0.00	0.00	0	0	-1	7.78	7.78
+Fixation R	1	1	11154905441	11155001448	96007	0.00	0.00	0	0	-1	10.79	10.79
+Fixation L	1	2	11155077423	11158465255	3387832	1.01	0.30	857	256	-1	5.03	5.02
+Fixation R	1	2	11155077423	11158229184	3151761	0.00	0.00	0	0	-1	9.95	9.95
+Fixation R	1	3	11158257256	11158465255	207999	0.00	0.00	0	0	-1	10.49	10.49
+Saccade L	1	1	11158465255	11158501126	35871	0.00	0.00	0.00	0.00	16.52	1127.11	0.33	460.51	45854.49	-44734.70	19348.66
+Saccade R	1	1	11158465255	11158501126	35871	0.00	0.00	0.00	0.00	16.52	1127.11	0.33	460.51	45854.49	-44734.70	19348.66
+Fixation L	1	3	11158501126	11162344958	3843832	0.79	0.10	756	97	-1	3.99	3.97
+Fixation R	1	4	11158501126	11158973129	472003	0.00	0.00	0	0	-1	7.50	7.50
+Saccade R	1	2	11158973129	11159001137	28008	0.00	0.00	0.00	0.04	10.30	490.14	0.43	367.60	26257.33	-26256.78	21880.74
+Fixation R	1	5	11159001137	11162344958	3343821	0.00	0.00	0	0	-1	10.21	10.21

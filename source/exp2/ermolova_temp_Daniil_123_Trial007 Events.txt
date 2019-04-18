@@ -1,0 +1,28 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Daniil-eye_data.idf
+Date:	17.04.2019 03:52:58
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Daniil
+Description:	Run17
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	4588086914	# Message: Questionnaire5.jpg
+Fixation L	1	1	4588088020	4588288017	199997	950.58	652.40	18	46	-1	13.13	13.13
+Fixation R	1	1	4588088020	4588288017	199997	950.58	652.40	18	46	-1	13.54	13.54
+Saccade L	1	1	4588288017	4588363954	75937	941.00	680.26	850.73	409.37	6.64	227.34	0.21	87.40	10612.86	-4518.90	3739.87
+Saccade R	1	1	4588288017	4588363954	75937	941.00	680.26	850.73	409.37	6.64	227.34	0.21	87.40	10612.86	-4518.90	3739.87
+Saccade L	1	2	4588384042	4588436023	51981	844.89	400.24	494.77	333.83	7.93	290.16	0.31	152.59	13784.03	-10858.04	8436.24
+Saccade R	1	2	4588384042	4588436023	51981	844.89	400.24	494.77	333.83	7.93	290.16	0.31	152.59	13784.03	-10858.04	8436.24
+Fixation L	1	2	4588436023	4589959936	1523913	451.22	341.11	88	40	-1	13.21	13.21
+Fixation R	1	2	4588436023	4589959936	1523913	451.22	341.11	88	40	-1	13.38	13.38
+UserEvent	1	2	4589178919	# Message: UE-mouseclick left x=489 y=345
+UserEvent	1	3	4589850936	# Message: UE-mouseclick left x=438 y=384

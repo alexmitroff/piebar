@@ -1,0 +1,32 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\Boris-eye_data.idf
+Date:	17.04.2019 03:56:26
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Boris
+Description:	Run4
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	2122663612	# Message: Questionnaire11.jpg
+Saccade L	1	1	2122708475	2122740478	32003	610.67	422.66	480.35	351.03	3.07	206.34	0.50	95.79	9792.37	-9802.29	6957.74
+Saccade R	1	1	2122708475	2122740478	32003	610.67	422.66	480.35	351.03	3.07	206.34	0.50	95.79	9792.37	-9802.29	6957.74
+Fixation L	1	1	2122740478	2122924476	183998	482.20	329.49	22	36	-1	13.08	13.08
+Fixation R	1	1	2122740478	2122924476	183998	482.20	329.49	22	36	-1	13.11	13.11
+Saccade L	1	2	2122924476	2122948475	23999	476.82	339.30	422.29	332.25	1.13	94.46	0.50	47.17	3959.14	-3946.91	2938.16
+Saccade R	1	2	2122924476	2122948475	23999	476.82	339.30	422.29	332.25	1.13	94.46	0.50	47.17	3959.14	-3946.91	2938.16
+Fixation L	1	2	2122948475	2123528460	579985	408.29	338.26	22	39	-1	13.21	13.21
+Fixation R	1	2	2122948475	2123528460	579985	408.29	338.26	22	39	-1	13.30	13.30
+UserEvent	1	2	2123308075	# Message: UE-mouseclick left x=396 y=330
+Saccade L	1	3	2123528460	2123556384	27924	411.45	360.17	428.41	396.58	0.87	44.43	0.72	31.19	1388.62	-1697.34	1148.92
+Saccade R	1	3	2123528460	2123556384	27924	411.45	360.17	428.41	396.58	0.87	44.43	0.72	31.19	1388.62	-1697.34	1148.92
+Fixation L	1	3	2123556384	2123844348	287964	417.95	403.02	26	28	-1	13.44	13.44
+Fixation R	1	3	2123556384	2123844348	287964	417.95	403.02	26	28	-1	13.64	13.64
+UserEvent	1	3	2123724093	# Message: UE-mouseclick left x=409 y=395

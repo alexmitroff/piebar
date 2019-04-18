@@ -1,0 +1,33 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Valera-eye_data.idf
+Date:	17.04.2019 03:52:33
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Valera
+Description:	Run8
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	602929031	# Message: Questionnaire13.jpg
+Fixation L	1	1	602930322	603178329	248007	605.69	355.18	32	24	-1	13.83	13.83
+Fixation R	1	1	602930322	603178329	248007	605.69	355.18	32	24	-1	15.09	15.09
+Saccade L	1	1	603178329	603210334	32005	596.67	354.97	407.06	349.69	3.99	307.26	0.50	124.66	13829.31	-13237.72	9702.67
+Saccade R	1	1	603178329	603210334	32005	596.67	354.97	407.06	349.69	3.99	307.26	0.50	124.66	13829.31	-13237.72	9702.67
+Fixation L	1	2	603210334	603802339	592005	381.68	327.59	49	42	-1	14.50	14.50
+Fixation R	1	2	603210334	603802339	592005	381.68	327.59	49	42	-1	15.86	15.86
+UserEvent	1	2	603494759	# Message: UE-mouseclick left x=413 y=347
+Saccade L	1	2	603802339	603830329	27990	390.78	331.32	420.81	375.11	1.45	112.25	0.43	51.93	4669.02	-3330.54	2800.47
+Saccade R	1	2	603802339	603830329	27990	390.78	331.32	420.81	375.11	1.45	112.25	0.43	51.93	4669.02	-3330.54	2800.47
+Fixation L	1	3	603830329	604034251	203922	445.58	387.02	36	25	-1	14.55	14.55
+Fixation R	1	3	603830329	604034251	203922	445.58	387.02	36	25	-1	16.17	16.17
+Saccade L	1	3	604034251	604094204	59953	436.46	390.91	800.40	342.75	7.92	428.56	0.27	132.15	20842.62	-18793.07	8745.88
+Saccade R	1	3	604034251	604094204	59953	436.46	390.91	800.40	342.75	7.92	428.56	0.27	132.15	20842.62	-18793.07	8745.88
+Fixation L	1	4	604094204	604362229	268025	807.61	337.70	32	28	-1	14.73	14.73
+Fixation R	1	4	604094204	604362229	268025	807.61	337.70	32	28	-1	16.44	16.44

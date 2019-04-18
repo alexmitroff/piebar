@@ -1,0 +1,30 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\georgy-eye_data.idf
+Date:	17.04.2019 03:52:24
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	georgy
+Description:	Run5
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3012708650	# Message: Questionnaire11.jpg
+Fixation L	1	1	3012731947	3013003953	272006	387.32	366.35	33	52	-1	16.72	16.72
+Fixation R	1	1	3012731947	3013003953	272006	387.32	366.35	33	52	-1	16.59	16.59
+Saccade L	1	1	3013003953	3013047995	44042	374.09	389.12	405.65	334.53	1.42	71.93	0.36	32.19	3249.18	-1577.58	1479.75
+Saccade R	1	1	3013003953	3013047995	44042	374.09	389.12	405.65	334.53	1.42	71.93	0.36	32.19	3249.18	-1577.58	1479.75
+Fixation L	1	2	3013047995	3013631969	583974	391.22	331.09	43	32	-1	16.70	16.70
+Fixation R	1	2	3013047995	3013631969	583974	391.22	331.09	43	32	-1	16.74	16.74
+UserEvent	1	2	3013502139	# Message: UE-mouseclick left x=365 y=304
+Saccade L	1	2	3013631969	3013687879	55910	374.21	331.47	422.04	358.52	1.26	55.30	0.36	22.60	2451.61	-1989.23	1163.22
+Saccade R	1	2	3013631969	3013687879	55910	374.21	331.47	422.04	358.52	1.26	55.30	0.36	22.60	2451.61	-1989.23	1163.22
+Fixation L	1	3	3013687879	3013955853	267974	421.60	360.19	23	97	-1	17.45	17.45
+Fixation R	1	3	3013687879	3013955853	267974	421.60	360.19	23	97	-1	17.27	17.27
+UserEvent	1	3	3013870123	# Message: UE-mouseclick left x=369 y=404

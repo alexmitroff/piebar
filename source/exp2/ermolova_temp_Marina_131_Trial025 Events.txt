@@ -1,0 +1,32 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Marina-eye_data.idf
+Date:	17.04.2019 03:53:29
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Marina
+Description:	Run25
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	11548387102	# Message: Questionnaire14.jpg
+Fixation L	1	1	11548390994	11548554891	163897	548.93	433.25	13	11	-1	12.11	12.11
+Fixation R	1	1	11548390994	11548554891	163897	548.93	433.25	13	11	-1	11.76	11.76
+Saccade L	1	1	11548554891	11548594897	40006	555.33	435.78	408.22	285.96	4.80	266.53	0.40	119.96	13035.39	-12169.48	8609.75
+Saccade R	1	1	11548554891	11548594897	40006	555.33	435.78	408.22	285.96	4.80	266.53	0.40	119.96	13035.39	-12169.48	8609.75
+Fixation L	1	2	11548594897	11548842857	247960	389.67	266.31	39	35	-1	12.13	12.13
+Fixation R	1	2	11548594897	11548842857	247960	389.67	266.31	39	35	-1	11.67	11.67
+Fixation L	1	3	11548858949	11549546904	687955	357.38	269.74	22	35	-1	12.63	12.63
+Fixation R	1	3	11548858949	11549546904	687955	357.38	269.74	22	35	-1	12.16	12.16
+UserEvent	1	2	11549313845	# Message: UE-mouseclick left x=357 y=275
+Saccade L	1	2	11549546904	11549578885	31981	361.46	274.58	371.51	414.89	2.79	196.12	0.37	87.14	8961.43	-8289.35	5931.04
+Saccade R	1	2	11549546904	11549578885	31981	361.46	274.58	371.51	414.89	2.79	196.12	0.37	87.14	8961.43	-8289.35	5931.04
+Fixation L	1	4	11549578885	11550102793	523908	378.64	400.30	83	138	-1	13.14	13.14
+Fixation R	1	4	11549578885	11550102793	523908	378.64	400.30	83	138	-1	12.66	12.66
+UserEvent	1	3	11550001853	# Message: UE-mouseclick left x=368 y=396

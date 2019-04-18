@@ -1,0 +1,20 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Vika-eye_data.idf
+Date:	17.04.2019 03:53:46
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Vika
+Description:	Run30
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	6367838643	# Message: RichText1.jpg
+Fixation L	1	1	6369743484	6369875453	131969	275.88	802.91	499	586	-1	10.91	10.91
+Fixation R	1	1	6369743484	6369875453	131969	275.88	802.91	499	586	-1	11.97	5.79

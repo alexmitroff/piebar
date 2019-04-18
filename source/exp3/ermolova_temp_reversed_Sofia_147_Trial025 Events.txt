@@ -1,0 +1,35 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\Sofia-eye_data.idf
+Date:	17.04.2019 03:56:30
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Sofia
+Description:	Run5
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3493719241	# Message: Questionnaire15.jpg
+Fixation L	1	1	3493721174	3493973186	252012	1099.94	549.80	17	24	-1	13.20	13.20
+Fixation R	1	1	3493721174	3493973186	252012	1099.94	549.80	17	24	-1	14.50	14.50
+Saccade L	1	1	3493973186	3494049206	76020	1093.82	545.84	527.60	297.85	13.95	278.86	0.53	183.47	10130.34	-11087.26	5745.13
+Saccade R	1	1	3493973186	3494049206	76020	1093.82	545.84	527.60	297.85	13.95	278.86	0.53	183.47	10130.34	-11087.26	5745.13
+Fixation L	1	2	3494049206	3494117193	67987	525.54	282.79	19	25	-1	13.58	13.58
+Fixation R	1	2	3494049206	3494117193	67987	525.54	282.79	19	25	-1	14.34	14.34
+Saccade L	1	2	3494117193	3494141125	23932	517.39	278.37	463.08	285.43	1.10	91.97	0.67	45.87	4190.72	-3858.75	2763.62
+Saccade R	1	2	3494117193	3494141125	23932	517.39	278.37	463.08	285.43	1.10	91.97	0.67	45.87	4190.72	-3858.75	2763.62
+Fixation L	1	3	3494141125	3495748993	1607868	430.97	283.57	106	60	-1	13.74	13.74
+Fixation R	1	3	3494141125	3495748993	1607868	430.97	283.57	106	60	-1	14.58	14.58
+UserEvent	1	2	3494969807	# Message: UE-mouseclick left x=435 y=309
+UserEvent	1	3	3495425818	# Message: UE-mouseclick left x=435 y=334
+Saccade L	1	3	3495748993	3495772972	23979	386.48	276.96	422.70	315.55	0.96	70.28	0.50	40.22	3313.75	-2783.75	2335.68
+Saccade R	1	3	3495748993	3495772972	23979	386.48	276.96	422.70	315.55	0.96	70.28	0.50	40.22	3313.75	-2783.75	2335.68
+Fixation L	1	4	3495772972	3496092980	320008	423.33	331.51	23	26	-1	13.66	13.66
+Fixation R	1	4	3495772972	3496092980	320008	423.33	331.51	23	26	-1	14.61	14.61
+UserEvent	1	4	3495985826	# Message: UE-mouseclick left x=427 y=384

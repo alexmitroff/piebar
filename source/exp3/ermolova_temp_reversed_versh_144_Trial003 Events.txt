@@ -1,0 +1,31 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\versh-eye_data.idf
+Date:	17.04.2019 03:56:20
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	versh
+Description:	Run2
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	7735057241	# Message: Questionnaire6.jpg
+UserEvent	1	2	7737328347	# Message: UE-mouseclick left x=364 y=308
+Saccade L	1	1	7737514938	7737558975	44037	0.00	0.00	353.30	250.56	9.53	831.86	0.27	216.34	34810.47	-34039.69	17544.45
+Saccade R	1	1	7737514938	7737558975	44037	0.00	0.00	353.30	250.56	9.53	831.86	0.27	216.34	34810.47	-34039.69	17544.45
+Saccade L	1	2	7737590950	7737626968	36018	349.32	260.26	303.97	250.15	1.07	54.54	0.56	29.68	2279.13	-2129.92	1556.62
+Saccade R	1	2	7737590950	7737626968	36018	349.32	260.26	303.97	250.15	1.07	54.54	0.56	29.68	2279.13	-2129.92	1556.62
+Saccade L	1	3	7737626968	7737678938	51970	303.97	250.15	370.99	265.99	2.10	118.13	0.31	40.38	4824.98	-4563.76	2476.80
+Saccade R	1	3	7737626968	7737678938	51970	303.97	250.15	370.99	265.99	2.10	118.13	0.31	40.38	4824.98	-4563.76	2476.80
+Fixation L	1	1	7737678938	7737770978	92040	366.40	261.85	27	14	-1	13.95	13.95
+Fixation R	1	1	7737678938	7737770978	92040	366.40	261.85	27	14	-1	13.81	13.81
+Saccade L	1	4	7737770978	7737854948	83970	383.18	257.28	432.79	353.41	2.62	87.05	0.24	31.17	3653.43	-2580.46	1282.62
+Saccade R	1	4	7737770978	7737854948	83970	383.18	257.28	432.79	353.41	2.62	87.05	0.24	31.17	3653.43	-2580.46	1282.62
+Fixation L	1	2	7737854948	7738030948	176000	428.92	328.42	11	49	-1	13.95	13.95
+Fixation R	1	2	7737854948	7738030948	176000	428.92	328.42	11	49	-1	13.89	13.89

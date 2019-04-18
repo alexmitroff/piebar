@@ -1,0 +1,22 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Ignat2-eye_data.idf
+Date:	17.04.2019 03:54:14
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Ignat2
+Description:	Run37
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	5514038497	# Message: experiment-05.jpg
+Fixation L	1	1	5514048868	5514264807	215939	566.29	172.88	30	29	-1	11.42	11.42
+Fixation R	1	1	5514048868	5514264807	215939	566.29	172.88	30	29	-1	10.85	10.85
+Saccade L	1	1	5514264807	5514312868	48061	547.42	177.07	545.97	222.16	1.02	42.35	0.42	21.30	1368.17	-1362.96	883.46
+Saccade R	1	1	5514264807	5514312868	48061	547.42	177.07	545.97	222.16	1.02	42.35	0.42	21.30	1368.17	-1362.96	883.46

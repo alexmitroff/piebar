@@ -1,0 +1,34 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Yulia 02-eye_data.idf
+Date:	17.04.2019 03:53:22
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Yulia 02
+Description:	Run23
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	9781312724	# Message: Questionnaire15.jpg
+Fixation L	1	1	9781349927	9781629930	280003	459.20	357.80	13	25	-1	11.87	11.87
+Fixation R	1	1	9781349927	9781629930	280003	459.20	357.80	13	25	-1	11.44	11.44
+Saccade L	1	1	9781629930	9781657918	27988	456.61	368.22	433.42	383.87	0.62	41.72	0.57	22.13	1946.03	-1541.44	1264.01
+Saccade R	1	1	9781629930	9781657918	27988	456.61	368.22	433.42	383.87	0.62	41.72	0.57	22.13	1946.03	-1541.44	1264.01
+Fixation L	1	2	9781657918	9781737927	80009	433.00	390.70	10	10	-1	11.93	11.93
+Fixation R	1	2	9781657918	9781737927	80009	433.00	390.70	10	10	-1	11.65	11.65
+Saccade L	1	2	9781737927	9781769946	32019	438.95	393.87	407.41	350.61	1.17	86.21	0.38	36.45	3845.20	-3703.17	2631.50
+Saccade R	1	2	9781737927	9781769946	32019	438.95	393.87	407.41	350.61	1.17	86.21	0.38	36.45	3845.20	-3703.17	2631.50
+Fixation L	1	3	9781769946	9782117845	347899	417.09	354.89	31	18	-1	12.07	12.07
+Fixation R	1	3	9781769946	9782117845	347899	417.09	354.89	31	18	-1	11.78	11.78
+Saccade L	1	3	9782117845	9782141827	23982	415.66	364.00	375.81	361.31	0.93	77.31	0.67	38.62	3272.85	-3192.47	2342.48
+Saccade R	1	3	9782117845	9782141827	23982	415.66	364.00	375.81	361.31	0.93	77.31	0.67	38.62	3272.85	-3192.47	2342.48
+Fixation L	1	4	9782141827	9782713823	571996	383.05	374.47	45	45	-1	12.18	12.18
+Fixation R	1	4	9782141827	9782713823	571996	383.05	374.47	45	45	-1	11.96	11.96
+UserEvent	1	2	9782179536	# Message: UE-mouseclick left x=405 y=339
+UserEvent	1	3	9782643520	# Message: UE-mouseclick left x=409 y=391

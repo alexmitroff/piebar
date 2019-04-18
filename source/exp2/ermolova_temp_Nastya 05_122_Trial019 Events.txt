@@ -1,0 +1,29 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Nastya 05-eye_data.idf
+Date:	17.04.2019 03:52:56
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Nastya 05
+Description:	Run16
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3968566892	# Message: Questionnaire9.jpg
+Fixation L	1	1	3968610329	3968878339	268010	389.49	153.54	28	31	-1	14.16	14.16
+Fixation R	1	1	3968610329	3968878339	268010	389.49	153.54	28	31	-1	15.63	15.63
+Fixation L	1	2	3968938372	3970670133	1731761	383.24	276.38	59	85	-1	15.27	15.27
+Fixation R	1	2	3968938372	3970670133	1731761	383.24	276.38	59	85	-1	16.81	16.81
+UserEvent	1	2	3969597502	# Message: UE-mouseclick left x=355 y=273
+UserEvent	1	3	3970317491	# Message: UE-mouseclick left x=363 y=271
+Saccade L	1	1	3970670133	3970706145	36012	405.67	322.22	406.34	429.12	2.30	158.17	0.67	63.98	6836.81	-6251.87	3933.75
+Saccade R	1	1	3970670133	3970706145	36012	405.67	322.22	406.34	429.12	2.30	158.17	0.67	63.98	6836.81	-6251.87	3933.75
+Fixation L	1	3	3970706145	3971178142	471997	405.55	393.19	28	54	-1	15.89	15.89
+Fixation R	1	3	3970706145	3971178142	471997	405.55	393.19	28	54	-1	17.47	17.47
+UserEvent	1	4	3971061496	# Message: UE-mouseclick left x=398 y=393

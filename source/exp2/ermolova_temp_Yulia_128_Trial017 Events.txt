@@ -1,0 +1,33 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Yulia-eye_data.idf
+Date:	17.04.2019 03:53:18
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Yulia
+Description:	Run22
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	9410986627	# Message: Questionnaire13.jpg
+Fixation L	1	1	9411078612	9411250561	171949	699.41	517.35	40	23	-1	14.25	14.25
+Fixation R	1	1	9411078612	9411250561	171949	699.41	517.35	40	23	-1	11.92	11.92
+Saccade L	1	1	9411330490	9411366598	36108	444.32	424.02	477.52	435.12	0.90	43.09	0.44	24.97	1008.28	-1876.24	1013.27
+Saccade R	1	1	9411330490	9411366598	36108	444.32	424.02	477.52	435.12	0.90	43.09	0.44	24.97	1008.28	-1876.24	1013.27
+Fixation L	1	2	9411366598	9411694498	327900	456.35	423.98	41	62	-1	14.52	14.52
+Fixation R	1	2	9411366598	9411694498	327900	456.35	423.98	41	62	-1	12.18	12.18
+Fixation L	1	3	9411758508	9412710387	951879	444.70	429.46	50	83	-1	14.49	14.49
+Fixation R	1	3	9411758508	9412710387	951879	444.70	429.46	50	83	-1	12.10	12.10
+UserEvent	1	2	9411851564	# Message: UE-mouseclick left x=399 y=326
+UserEvent	1	3	9412251550	# Message: UE-mouseclick left x=396 y=333
+Saccade L	1	2	9412710387	9412750404	40017	458.92	473.35	437.51	434.39	0.97	46.57	0.50	24.25	1869.86	-727.56	747.43
+Saccade R	1	2	9412710387	9412750404	40017	458.92	473.35	437.51	434.39	0.97	46.57	0.50	24.25	1869.86	-727.56	747.43
+Fixation L	1	4	9412750404	9413114407	364003	434.98	415.07	36	41	-1	14.66	14.66
+Fixation R	1	4	9412750404	9413114407	364003	434.98	415.07	36	41	-1	12.21	12.21
+UserEvent	1	4	9412971551	# Message: UE-mouseclick left x=429 y=391

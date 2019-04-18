@@ -1,0 +1,32 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\Dima-eye_data.idf
+Date:	17.04.2019 03:56:24
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Dima
+Description:	Run3
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	1221414708	# Message: Questionnaire17.jpg
+Fixation L	1	1	1221415871	1221651158	235287	475.05	161.23	20	27	-1	12.65	12.65
+Fixation R	1	1	1221415871	1221651158	235287	475.05	161.23	20	27	-1	12.55	12.55
+Saccade L	1	1	1221651158	1221703731	52573	470.22	163.64	497.71	236.63	1.86	51.45	0.53	35.44	1816.61	-1749.11	1150.64
+Saccade R	1	1	1221651158	1221703731	52573	470.22	163.64	497.71	236.63	1.86	51.45	0.53	35.44	1816.61	-1749.11	1150.64
+Saccade L	1	2	1221703731	1221755745	52014	497.71	236.63	400.21	293.17	3.03	157.91	0.46	58.29	6448.72	-5886.91	3442.43
+Saccade R	1	2	1221703731	1221755745	52014	497.71	236.63	400.21	293.17	3.03	157.91	0.46	58.29	6448.72	-5886.91	3442.43
+Fixation L	1	2	1221755745	1222427173	671428	387.48	316.18	49	46	-1	13.12	13.12
+Fixation R	1	2	1221755745	1222427173	671428	387.48	316.18	49	46	-1	13.10	13.10
+UserEvent	1	2	1222168528	# Message: UE-mouseclick left x=375 y=306
+Saccade L	1	3	1222427173	1222471178	44005	379.21	309.20	374.03	425.70	2.48	135.36	0.36	56.27	6033.60	-5352.23	3524.17
+Saccade R	1	3	1222427173	1222471178	44005	379.21	309.20	374.03	425.70	2.48	135.36	0.36	56.27	6033.60	-5352.23	3524.17
+Fixation L	1	3	1222471178	1223007062	535884	370.32	418.28	46	45	-1	13.46	13.46
+Fixation R	1	3	1222471178	1223007062	535884	370.32	418.28	46	45	-1	13.50	13.50
+UserEvent	1	3	1222880588	# Message: UE-mouseclick left x=386 y=390

@@ -1,0 +1,29 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Anna-eye_data.idf
+Date:	17.04.2019 03:52:54
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Anna
+Description:	Run15
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3549867312	# Message: Questionnaire10.jpg
+Fixation L	1	1	3549867952	3550151910	283958	352.00	259.37	22	24	-1	13.11	13.11
+Fixation R	1	1	3549867952	3550151910	283958	352.00	259.37	22	24	-1	13.02	13.02
+Saccade L	1	1	3550151910	3550203910	52000	355.18	261.40	396.76	311.03	1.50	53.33	0.31	28.85	2529.09	-1614.57	1229.86
+Saccade R	1	1	3550151910	3550203910	52000	355.18	261.40	396.76	311.03	1.50	53.33	0.31	28.85	2529.09	-1614.57	1229.86
+Fixation L	1	2	3550203910	3551527817	1323907	377.65	318.68	58	60	-1	12.96	12.96
+Fixation R	1	2	3550203910	3551527817	1323907	377.65	318.68	58	60	-1	13.13	13.13
+UserEvent	1	2	3551172481	# Message: UE-mouseclick left x=361 y=342
+Saccade L	1	2	3551527817	3551559794	31977	358.26	319.32	391.58	361.62	1.20	80.93	0.50	37.68	3661.12	-3357.39	2446.86
+Saccade R	1	2	3551527817	3551559794	31977	358.26	319.32	391.58	361.62	1.20	80.93	0.50	37.68	3661.12	-3357.39	2446.86
+Fixation L	1	3	3551559794	3551647801	88007	408.01	363.65	20	9	-1	13.44	13.44
+Fixation R	1	3	3551559794	3551647801	88007	408.01	363.65	20	9	-1	13.66	13.66

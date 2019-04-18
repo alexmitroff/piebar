@@ -1,0 +1,32 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Nastya 06-eye_data.idf
+Date:	17.04.2019 03:53:04
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Nastya 06
+Description:	Run18
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	6709042798	# Message: Questionnaire15.jpg
+Saccade L	1	1	6709043272	6709071313	28041	999.00	628.42	903.81	622.51	2.01	166.21	0.57	71.51	1208.35	-7194.94	2283.56
+Saccade R	1	1	6709043272	6709071313	28041	999.00	628.42	903.81	622.51	2.01	166.21	0.57	71.51	1208.35	-7194.94	2283.56
+Fixation L	1	1	6709071313	6709231326	160013	900.76	613.02	10	17	-1	13.03	13.03
+Fixation R	1	1	6709071313	6709231326	160013	900.76	613.02	10	17	-1	13.62	13.62
+Saccade L	1	2	6709231326	6709283274	51948	898.27	619.39	551.89	319.29	10.31	401.06	0.38	198.40	19074.32	-12317.05	10878.69
+Saccade R	1	2	6709231326	6709283274	51948	898.27	619.39	551.89	319.29	10.31	401.06	0.38	198.40	19074.32	-12317.05	10878.69
+Fixation L	1	2	6709283274	6709427345	144071	535.70	329.56	22	14	-1	13.13	13.13
+Fixation R	1	2	6709283274	6709427345	144071	535.70	329.56	22	14	-1	13.57	13.57
+Saccade L	1	3	6709427345	6709451291	23946	531.22	325.28	410.95	329.18	2.32	206.37	0.50	96.78	9136.26	-8621.64	6557.87
+Saccade R	1	3	6709427345	6709451291	23946	531.22	325.28	410.95	329.18	2.32	206.37	0.50	96.78	9136.26	-8621.64	6557.87
+Fixation L	1	3	6709451291	6710251168	799877	389.16	338.06	38	87	-1	13.64	13.64
+Fixation R	1	3	6709451291	6710251168	799877	389.16	338.06	38	87	-1	14.06	14.06
+UserEvent	1	2	6709672959	# Message: UE-mouseclick left x=363 y=334
+UserEvent	1	3	6710104986	# Message: UE-mouseclick left x=368 y=387

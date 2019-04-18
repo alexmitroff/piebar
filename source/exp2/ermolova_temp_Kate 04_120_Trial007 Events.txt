@@ -1,0 +1,34 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Kate 04-eye_data.idf
+Date:	17.04.2019 03:52:47
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Kate 04
+Description:	Run14
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	4011708115	# Message: Questionnaire6.jpg
+Fixation L	1	1	4011711020	4011999185	288165	505.35	373.22	16	24	-1	13.78	13.78
+Fixation R	1	1	4011711020	4011999185	288165	505.35	373.22	16	24	-1	12.36	12.36
+Saccade L	1	1	4011999185	4012031014	31829	512.12	369.03	451.81	334.31	1.48	101.18	0.37	46.42	4336.91	-4210.51	3026.64
+Saccade R	1	1	4011999185	4012031014	31829	512.12	369.03	451.81	334.31	1.48	101.18	0.37	46.42	4336.91	-4210.51	3026.64
+Fixation L	1	2	4012031014	4012974828	943814	452.20	326.88	68	61	-1	14.60	14.60
+Fixation R	1	2	4012031014	4012974828	943814	452.20	326.88	68	61	-1	13.34	13.34
+UserEvent	1	2	4012644238	# Message: UE-mouseclick left x=400 y=299
+Saccade L	1	2	4012974828	4013030890	56062	444.85	296.13	446.39	378.34	1.85	79.76	0.72	33.00	2597.04	-3421.33	1667.42
+Saccade R	1	2	4012974828	4013030890	56062	444.85	296.13	446.39	378.34	1.85	79.76	0.72	33.00	2597.04	-3421.33	1667.42
+Fixation L	1	3	4013030890	4013322899	292009	461.27	410.83	26	42	-1	14.91	14.91
+Fixation R	1	3	4013030890	4013322899	292009	461.27	410.83	26	42	-1	14.03	14.03
+Saccade L	1	3	4013322899	4013388086	65187	472.78	418.21	488.21	336.52	1.91	71.06	0.43	29.35	2230.73	-2567.66	1346.61
+Saccade R	1	3	4013322899	4013388086	65187	472.78	418.21	488.21	336.52	1.91	71.06	0.43	29.35	2230.73	-2567.66	1346.61
+UserEvent	1	3	4013380347	# Message: UE-mouseclick left x=402 y=396
+Fixation L	1	4	4013388086	4013442893	54807	485.57	338.46	5	7	-1	14.64	14.64
+Fixation R	1	4	4013388086	4013442893	54807	485.57	338.46	5	7	-1	13.54	13.54

@@ -1,0 +1,34 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\Dima-eye_data.idf
+Date:	17.04.2019 03:56:24
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Dima
+Description:	Run3
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	1208445652	# Message: Questionnaire9.jpg
+Fixation L	1	1	1208447576	1208632129	184553	661.85	238.59	17	46	-1	12.29	12.29
+Fixation R	1	1	1208447576	1208632129	184553	661.85	238.59	17	46	-1	12.21	12.21
+Saccade L	1	1	1208632129	1208672131	40002	653.73	248.68	461.33	290.04	4.25	272.86	0.40	106.13	12293.61	-11404.44	7482.49
+Saccade R	1	1	1208632129	1208672131	40002	653.73	248.68	461.33	290.04	4.25	272.86	0.40	106.13	12293.61	-11404.44	7482.49
+Fixation L	1	2	1208672131	1208796005	123874	457.05	291.58	24	19	-1	12.32	12.32
+Fixation R	1	2	1208672131	1208796005	123874	457.05	291.58	24	19	-1	12.23	12.23
+Saccade L	1	2	1208796005	1208836023	40018	445.45	305.29	415.79	241.53	1.47	54.44	0.50	36.82	2302.26	-1819.46	1479.50
+Saccade R	1	2	1208796005	1208836023	40018	445.45	305.29	415.79	241.53	1.47	54.44	0.50	36.82	2302.26	-1819.46	1479.50
+Fixation L	1	3	1208836023	1209624019	787996	391.57	266.23	65	56	-1	12.72	12.72
+Fixation R	1	3	1208836023	1209624019	787996	391.57	266.23	65	56	-1	12.60	12.60
+UserEvent	1	2	1209352255	# Message: UE-mouseclick left x=376 y=265
+Saccade L	1	3	1209624019	1209676021	52002	378.65	272.68	377.14	407.09	2.74	123.29	0.23	52.63	5179.49	-3462.20	2373.44
+Saccade R	1	3	1209624019	1209676021	52002	378.65	272.68	377.14	407.09	2.74	123.29	0.23	52.63	5179.49	-3462.20	2373.44
+Fixation L	1	4	1209676021	1210156042	480021	386.33	372.31	44	50	-1	13.04	13.04
+Fixation R	1	4	1209676021	1210156042	480021	386.33	372.31	44	50	-1	13.37	13.37
+UserEvent	1	3	1210016340	# Message: UE-mouseclick left x=412 y=407

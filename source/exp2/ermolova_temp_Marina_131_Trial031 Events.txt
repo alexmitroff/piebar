@@ -1,0 +1,32 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Marina-eye_data.idf
+Date:	17.04.2019 03:53:29
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Marina
+Description:	Run25
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	11572558166	# Message: Questionnaire15.jpg
+Fixation L	1	1	11572561379	11572829265	267886	391.84	193.92	20	30	-1	12.48	12.48
+Fixation R	1	1	11572561379	11572829265	267886	391.84	193.92	20	30	-1	11.89	11.89
+Saccade L	1	1	11572829265	11572873256	43991	390.43	188.80	359.68	299.76	2.78	152.69	0.45	63.25	6964.21	-6881.65	4351.72
+Saccade R	1	1	11572829265	11572873256	43991	390.43	188.80	359.68	299.76	2.78	152.69	0.45	63.25	6964.21	-6881.65	4351.72
+Fixation L	1	2	11572873256	11573693287	820031	376.97	311.38	59	48	-1	13.12	13.12
+Fixation R	1	2	11572873256	11573693287	820031	376.97	311.38	59	48	-1	12.57	12.57
+UserEvent	1	2	11573402399	# Message: UE-mouseclick left x=361 y=331
+Saccade L	1	2	11573693287	11573721277	27990	380.23	338.98	376.50	390.66	1.03	69.68	0.43	36.66	3226.15	-3202.55	2377.02
+Saccade R	1	2	11573693287	11573721277	27990	380.23	338.98	376.50	390.66	1.03	69.68	0.43	36.66	3226.15	-3202.55	2377.02
+Fixation L	1	3	11573721277	11573773288	52011	375.08	393.64	6	7	-1	13.31	13.31
+Fixation R	1	3	11573721277	11573773288	52011	375.08	393.64	6	7	-1	13.14	13.14
+UserEvent	1	3	11573762446	# Message: UE-mouseclick left x=372 y=400
+Saccade L	1	3	11573773288	11573809286	35998	368.66	396.61	355.40	354.05	1.03	54.55	0.67	28.53	1889.26	-2207.87	1375.34
+Saccade R	1	3	11573773288	11573809286	35998	368.66	396.61	355.40	354.05	1.03	54.55	0.67	28.53	1889.26	-2207.87	1375.34

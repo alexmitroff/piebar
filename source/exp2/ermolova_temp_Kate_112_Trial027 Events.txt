@@ -1,0 +1,34 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Kate-eye_data.idf
+Date:	17.04.2019 03:52:28
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Kate
+Description:	Run6
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3933119501	# Message: Questionnaire15.jpg
+Fixation L	1	1	3933129630	3933429793	300163	415.62	179.22	28	82	-1	15.16	15.16
+Fixation R	1	1	3933129630	3933429793	300163	415.62	179.22	28	82	-1	13.07	13.07
+Saccade L	1	1	3933429793	3933485666	55873	423.80	206.15	427.03	360.82	3.45	183.26	0.64	61.76	8084.59	-8426.11	4282.89
+Saccade R	1	1	3933429793	3933485666	55873	423.80	206.15	427.03	360.82	3.45	183.26	0.64	61.76	8084.59	-8426.11	4282.89
+Fixation L	1	2	3933485666	3933733546	247880	429.20	372.01	14	47	-1	15.87	15.87
+Fixation R	1	2	3933485666	3933733546	247880	429.20	372.01	14	47	-1	13.91	13.91
+Saccade L	1	2	3933733546	3933793539	59993	427.02	373.37	452.17	318.41	1.48	41.62	0.53	24.59	1232.26	-1325.66	736.25
+Saccade R	1	2	3933733546	3933793539	59993	427.02	373.37	452.17	318.41	1.48	41.62	0.53	24.59	1232.26	-1325.66	736.25
+Fixation L	1	3	3933793539	3935053425	1259886	479.55	336.86	60	39	-1	16.19	16.19
+Fixation R	1	3	3933793539	3935053425	1259886	479.55	336.86	60	39	-1	14.53	14.53
+UserEvent	1	2	3934561104	# Message: UE-mouseclick left x=500 y=329
+Saccade L	1	3	3935053425	3935093426	40001	480.06	339.45	414.22	371.75	2.10	132.68	0.40	52.62	5995.17	-5217.16	3398.02
+Saccade R	1	3	3935053425	3935093426	40001	480.06	339.45	414.22	371.75	2.10	132.68	0.40	52.62	5995.17	-5217.16	3398.02
+Fixation L	1	4	3935093426	3935449439	356013	406.06	396.08	19	44	-1	16.67	16.67
+Fixation R	1	4	3935093426	3935449439	356013	406.06	396.08	19	44	-1	14.77	14.77
+UserEvent	1	3	3935345086	# Message: UE-mouseclick left x=441 y=394

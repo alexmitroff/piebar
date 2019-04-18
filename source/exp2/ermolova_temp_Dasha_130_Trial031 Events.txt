@@ -1,0 +1,39 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Dasha-eye_data.idf
+Date:	17.04.2019 03:53:26
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Dasha
+Description:	Run24
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	11209544717	# Message: Questionnaire17.jpg
+Fixation L	1	1	11209545766	11209681742	135976	0.00	0.00	0	0	-1	15.77	15.77
+Fixation R	1	1	11209545766	11209681742	135976	0.00	0.00	0	0	-1	12.34	12.34
+Fixation L	1	2	11209709764	11209793763	83999	0.00	0.00	0	0	-1	17.04	17.04
+Fixation R	1	2	11209709764	11209793763	83999	0.00	0.00	0	0	-1	12.87	12.87
+Saccade L	1	1	11209793763	11209825763	32000	0.00	0.00	0.00	0.00	26.76	1488.89	0.25	836.18	72957.16	-73296.36	45355.09
+Saccade R	1	1	11209793763	11209825763	32000	0.00	0.00	0.00	0.00	26.76	1488.89	0.25	836.18	72957.16	-73296.36	45355.09
+Fixation L	1	3	11209825763	11210097779	272016	0.00	0.00	0	0	-1	16.58	16.58
+Fixation R	1	3	11209825763	11210097779	272016	0.00	0.00	0	0	-1	13.74	13.74
+Saccade L	1	2	11210209756	11210241780	32024	1035.75	503.18	0.00	0.00	13.07	723.59	0.50	408.04	25273.56	-66097.02	28034.41
+Fixation L	1	4	11210241780	11210309756	67976	0.00	0.00	0	0	-1	10.63	10.63
+Fixation R	1	4	11210241780	11210309756	67976	0.00	0.00	0	0	-1	10.32	10.32
+UserEvent	1	2	11210354532	# Message: UE-mouseclick left x=417 y=289
+Fixation L	1	5	11210381758	11210461780	80022	0.00	0.00	0	0	-1	13.36	13.36
+Fixation R	1	5	11210381758	11211289653	907895	9.43	6.14	1116	928	-1	13.47	13.47
+Fixation L	1	6	11210509750	11211289653	779903	0.00	0.00	0	0	-1	11.42	11.42
+UserEvent	1	3	11210826514	# Message: UE-mouseclick left x=418 y=283
+Fixation L	1	7	11211317676	11211585667	267991	0.00	0.00	0	0	-1	12.32	12.32
+Fixation R	1	6	11211317676	11211585667	267991	0.00	0.00	0	0	-1	13.44	13.44
+Fixation L	1	8	11211613654	11211801636	187982	0.00	0.00	0	0	-1	8.77	8.77
+Fixation R	1	7	11211613654	11211801636	187982	0.00	0.00	0	0	-1	14.29	14.29
+UserEvent	1	4	11211690555	# Message: UE-mouseclick left x=446 y=388

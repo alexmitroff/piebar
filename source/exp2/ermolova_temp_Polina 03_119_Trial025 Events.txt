@@ -1,0 +1,33 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Polina 03-eye_data.idf
+Date:	17.04.2019 03:52:45
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Polina 03
+Description:	Run13
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3301607466	# Message: Questionnaire17.jpg
+Fixation L	1	1	3301608700	3301860267	251567	770.70	453.65	17	29	-1	11.48	11.48
+Fixation R	1	1	3301608700	3301860267	251567	770.70	453.65	17	29	-1	10.92	10.92
+Saccade L	1	1	3301860267	3301908268	48001	765.32	469.96	424.00	327.81	7.93	350.92	0.34	165.18	16540.76	-11314.35	9781.44
+Saccade R	1	1	3301860267	3301908268	48001	765.32	469.96	424.00	327.81	7.93	350.92	0.34	165.18	16540.76	-11314.35	9781.44
+Fixation L	1	2	3301908268	3303844170	1935902	388.40	351.16	63	46	-1	11.66	11.66
+Fixation R	1	2	3301908268	3303844170	1935902	388.40	351.16	63	46	-1	10.71	10.71
+UserEvent	1	2	3303270112	# Message: UE-mouseclick left x=360 y=299
+Saccade L	1	2	3303844170	3303872191	28021	371.82	360.45	386.04	427.93	1.43	102.03	0.43	51.18	4826.32	-4209.90	3288.30
+Saccade R	1	2	3303844170	3303872191	28021	371.82	360.45	386.04	427.93	1.43	102.03	0.43	51.18	4826.32	-4209.90	3288.30
+Fixation L	1	3	3303872191	3304464163	591972	402.84	451.85	24	32	-1	11.65	11.65
+Fixation R	1	3	3303872191	3304464163	591972	402.84	451.85	24	32	-1	10.84	10.84
+UserEvent	1	3	3303894113	# Message: UE-mouseclick left x=379 y=374
+UserEvent	1	4	3304350105	# Message: UE-mouseclick left x=386 y=391
+Saccade L	1	3	3304464163	3304492171	28008	408.25	452.81	406.71	350.74	2.22	162.09	0.43	79.17	7591.46	-6939.04	5367.65
+Saccade R	1	3	3304464163	3304492171	28008	408.25	452.81	406.71	350.74	2.22	162.09	0.43	79.17	7591.46	-6939.04	5367.65

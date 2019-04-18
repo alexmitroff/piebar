@@ -1,0 +1,30 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp_reversed\Sofia-eye_data.idf
+Date:	17.04.2019 03:56:29
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Sofia
+Description:	Run5
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3376557784	# Message: Questionnaire8.jpg
+Fixation L	1	1	3376577010	3376836958	259948	469.07	330.35	38	53	-1	14.10	14.10
+Fixation R	1	1	3376577010	3376836958	259948	469.07	330.35	38	53	-1	14.78	14.78
+Saccade L	1	1	3376836958	3376893023	56065	469.53	366.35	415.62	340.41	1.91	104.29	0.29	34.05	4879.40	-3898.02	1912.40
+Saccade R	1	1	3376836958	3376893023	56065	469.53	366.35	415.62	340.41	1.91	104.29	0.29	34.05	4879.40	-3898.02	1912.40
+Fixation L	1	2	3376893023	3377672922	779899	394.63	317.50	48	56	-1	14.20	14.20
+Fixation R	1	2	3376893023	3377672922	779899	394.63	317.50	48	56	-1	15.18	15.18
+UserEvent	1	2	3377383308	# Message: UE-mouseclick left x=401 y=335
+Saccade L	1	2	3377672922	3377724923	52001	381.04	328.81	407.74	363.70	0.95	43.20	0.31	18.27	1800.17	-1306.76	852.61
+Saccade R	1	2	3377672922	3377724923	52001	381.04	328.81	407.74	363.70	0.95	43.20	0.31	18.27	1800.17	-1306.76	852.61
+Fixation L	1	3	3377724923	3377980918	255995	408.51	368.86	13	27	-1	14.05	14.05
+Fixation R	1	3	3377724923	3377980918	255995	408.51	368.86	13	27	-1	15.16	15.16
+UserEvent	1	3	3377895322	# Message: UE-mouseclick left x=393 y=386

@@ -1,0 +1,27 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Polina 03-1-eye_data.idf
+Date:	17.04.2019 03:53:30
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Polina 03
+Description:	Run26
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	11960976316	# Message: Questionnaire9.jpg
+Saccade L	1	1	11961027409	11961087460	60051	771.75	444.26	264.97	273.97	11.82	462.64	0.40	196.85	21214.61	-14724.69	11322.72
+Saccade R	1	1	11961027409	11961087460	60051	771.75	444.26	264.97	273.97	11.82	462.64	0.40	196.85	21214.61	-14724.69	11322.72
+Fixation L	1	1	11961087460	11961275413	187953	292.04	264.46	39	19	-1	11.18	11.18
+Fixation R	1	1	11961087460	11961275413	187953	292.04	264.46	39	19	-1	11.65	11.65
+Saccade L	1	2	11961275413	11961307412	31999	285.13	265.70	396.33	261.44	2.53	214.53	0.50	79.14	9160.66	-8761.36	6004.88
+Saccade R	1	2	11961275413	11961307412	31999	285.13	265.70	396.33	261.44	2.53	214.53	0.50	79.14	9160.66	-8761.36	6004.88
+Fixation L	1	2	11961307412	11962163315	855903	387.17	247.40	55	76	-1	10.42	10.42
+Fixation R	1	2	11961307412	11962163315	855903	387.17	247.40	55	76	-1	11.02	11.02
+UserEvent	1	2	11961858803	# Message: UE-mouseclick left x=366 y=273

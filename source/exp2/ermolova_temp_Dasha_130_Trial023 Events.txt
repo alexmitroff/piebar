@@ -1,0 +1,20 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\ermolova_temp\Dasha-eye_data.idf
+Date:	17.04.2019 03:53:25
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	Dasha
+Description:	Run24
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	11152473532	# Message: Questionnaire18.jpg
+UserEvent	1	2	11153209280	# Message: UE-mouseclick left x=441 y=338
+UserEvent	1	3	11153817276	# Message: UE-mouseclick left x=442 y=399
