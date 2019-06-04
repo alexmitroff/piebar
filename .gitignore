@@ -4,3 +4,6 @@
 test.txt
 *.pyc
 result/
+.idea/
+*.svg
+*.png
