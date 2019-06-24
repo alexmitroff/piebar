@@ -1,0 +1,20 @@
+[BeGaze]
+Converted from:	D:\Kirillov\Results\fatcat\P04-eye_data.idf
+Date:	29.05.2019 04:55:18
+Version:	BeGaze 3.0.181
+Sample Rate:	250
+Subject:	P04
+Description:	Run4
+
+Table Header for Fixations:
+Event Type	Trial	Number	Start	End	Duration	Location X	Location Y	Dispersion X	Dispersion Y	Plane	Avg. Pupil Size X	Avg. Pupil Size Y
+
+Table Header for Saccades:
+Event Type	Trial	Number	Start	End	Duration	Start Loc.X	Start Loc.Y	End Loc.X	End Loc.Y	Amplitude	Peak Speed	Peak Speed At	Average Speed	Peak Accel.	Peak Decel.	Average Accel.
+
+Table Header for User Events:
+Event Type	Trial	Number	Start	Description
+
+UserEvent	1	1	3725452233	# Message: 1-2.jpg
+Saccade L	1	1	3725455195	3725499185	43990	601.02	1090.04	0.00	0.00	34.13	2393.93	0.27	775.87	0.00	-63516.28	22485.07
+Fixation L	1	1	3725499185	3725647195	148010	16.41	29.54	607	1092	-1	6.51	5.51
