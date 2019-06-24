@@ -82,11 +82,11 @@ class DataHandler:
         print(f'Subject {test_subject.subject} done!')
         return result
 
-    def write_csv(self, filename, data):
+    def write_csv(self, filename, data, header=None):
         path = join(self.result_path, filename)
         data_frame = pd.DataFrame(data)
         text_file = open(path, "w")
-        text_file.write(data_frame.to_csv(index=False))
+        text_file.write(data_frame.to_csv(index=False, header=header))
         text_file.close()
         print(f"{filename} was written.")
 
@@ -103,11 +103,23 @@ class DataHandler:
         self.write_csv(filename, all_data)
 
     def save_stimuli_order(self, filename):
+        print('Save stimuli order')
         all_data = []
         for source_file in self.source_files:
+            print(f'processing {source_file}')
             test_subject = TestSubject(join(self.source_path, source_file))
-            all_data.append(test_subject.stimuli_order)
+            all_data += test_subject.stimuli_order
         self.write_csv(f"stimuli_order_{filename}", all_data)
+
+    def save_stimuli_duration(self, filename):
+        print('Save stimuli duration')
+        all_data = []
+        for source_file in self.source_files:
+            print(f'processing {source_file}')
+            test_subject = TestSubject(join(self.source_path, source_file))
+            test_subject.read_file()
+            all_data += test_subject.get_stimuli_durations_as_list(test_subject.subject, test_subject.stimuli_duration)
+        self.write_csv(f"stimuli_durations_{filename}", all_data, header=['subject', 'stimulus', 'duration'])
 
     def aggregate_exp_data(self, filename):
         data = self.read_csv(filename)
