@@ -1,7 +1,7 @@
-import pandas as pd
 import re
-
 from collections import OrderedDict
+
+import pandas as pd
 
 
 class TestSubject:
@@ -32,13 +32,17 @@ class TestSubject:
             # 'UserEvent': userevents_headers
             }
 
-    subject = None
-    data = None
-    source = None
+    def __init__(self, source_file):
+        self.source = source_file
+        self.data = OrderedDict()
+        self.subject = None
+        self.stimuli_duration = None
+        self.read_file()
 
     def read_file(self):
         f = open(self.source, 'r')
         stimulus = "NaN"
+        self.stimuli_duration = {}
 
         for line in f:
             line = line.rstrip()
@@ -51,10 +55,17 @@ class TestSubject:
             if line_start == 'UserEvent' and line[-1][-3:] in ['jpg', 'png']:
                 stimulus = line[-1].split(' ')[-1]
 
-            if stimulus is not "NaN" and stimulus not in self.data:
-                self.data[stimulus] = {}
+            if stimulus is not "NaN":
+                if stimulus not in self.data:
+                    self.data[stimulus] = {}
+                if stimulus not in self.stimuli_duration:
+                    self.stimuli_duration[stimulus] = {}
 
             if line_start in self.headers.keys():
+                if len(line) == len(self.fixation_headers) or len(line) == len(self.saccade_headers):
+                    if 'time_start' not in self.stimuli_duration[stimulus]:
+                        self.stimuli_duration[stimulus]['time_start'] = int(line[3])
+                    self.stimuli_duration[stimulus]['time_end'] = int(line[4])
                 if self.data[stimulus].get(line_start) is not None:
                     self.data[stimulus][line_start].append(line)
                 else:
@@ -70,12 +81,24 @@ class TestSubject:
 
     @property
     def stimuli_order(self):
-        return [ (self.subject, stimulus) for stimulus in self.stimuli ]
+        return [[self.subject, stimulus] for stimulus in self.stimuli]
 
     def get_data(self, stimulus, key):
         return pd.DataFrame(self.data[stimulus].get(key), columns=self.headers.get(key))
 
-    def __init__(self, source_file):
-        self.source = source_file
-        self.data = OrderedDict()
-        self.read_file()
+    def get_stimuli_durations(self):
+        durations = {}
+        for key, time_stamps in self.stimuli_duration.items():
+            duration = time_stamps['time_end'] - time_stamps['time_start']
+            durations[key] = duration
+        return durations
+
+    @staticmethod
+    def get_stimuli_durations_as_list(subject, stumuli_duration):
+        durations = []
+        for key, time_stamps in stumuli_duration.items():
+            if 'time_end' in time_stamps:
+                duration = time_stamps['time_end'] - time_stamps['time_start']
+                durations.append((subject, key, duration))
+        return durations
+
