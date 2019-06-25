@@ -118,8 +118,9 @@ class DataHandler:
             print(f'processing {source_file}')
             test_subject = TestSubject(join(self.source_path, source_file))
             test_subject.read_file()
+            test_subject.set_stimuli_type()
             all_data += test_subject.get_stimuli_durations_as_list(test_subject.subject, test_subject.stimuli_duration)
-        self.write_csv(f"stimuli_durations_{filename}", all_data, header=['subject', 'stimulus', 'duration'])
+        self.write_csv(f"stimuli_durations_{filename}", all_data, header=['subject', 'stimulus', 'type', 'duration'])
 
     def aggregate_exp_data(self, filename):
         data = self.read_csv(filename)

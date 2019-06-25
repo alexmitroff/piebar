@@ -16,6 +16,12 @@ class TestSubject:
         }
     }
     """
+    EXP_2_STIMULI_BY_TYPE = {
+        'piechart': range(2, 7),
+        'horizontal': range(7, 12),
+        'vertical': range(12, 17),
+        'doughnut': range(17, 22),
+    }
 
     userevents_headers = ['Event Type', 'Trial', 'Number', 'Start', 'Description']
     blink_headers = userevents_headers[:4] + ['End', 'Duration']
@@ -38,6 +44,14 @@ class TestSubject:
         self.subject = None
         self.stimuli_duration = None
         self.read_file()
+
+    def set_stimuli_type(self):
+        type_dicts = {}
+        for chart_type, stimuli_numbers in self.EXP_2_STIMULI_BY_TYPE.items():
+            file_name = 'experiment-{}.jpg'
+            type_dict = { f'experiment-{number:02d}.jpg':chart_type for number in stimuli_numbers }
+            type_dicts.update(type_dict)
+        self.stimuli_types = type_dicts
 
     def read_file(self):
         f = open(self.source, 'r')
@@ -79,6 +93,11 @@ class TestSubject:
     def stimuli(self):
         return list(self.data.keys())
 
+    def get_stimulus_type(self, stimulus):
+        if stimulus in self.stimuli_types:
+            return self.stimuli_types[stimulus]
+        return "NaN"
+
     @property
     def stimuli_order(self):
         return [[self.subject, stimulus] for stimulus in self.stimuli]
@@ -93,12 +112,11 @@ class TestSubject:
             durations[key] = duration
         return durations
 
-    @staticmethod
-    def get_stimuli_durations_as_list(subject, stumuli_duration):
+    def get_stimuli_durations_as_list(self, subject, stumuli_duration):
         durations = []
         for key, time_stamps in stumuli_duration.items():
             if 'time_end' in time_stamps:
                 duration = time_stamps['time_end'] - time_stamps['time_start']
-                durations.append((subject, key, duration))
+                durations.append((subject, key, self.get_stimulus_type(key), duration))
         return durations
 
