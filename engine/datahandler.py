@@ -32,7 +32,7 @@ class DataHandler:
             pass
 
     @staticmethod
-    def aggregation(data, column):
+    def aggregation(data, column, group_list=[]):
         """
         Aggrigates data by column provided
 
@@ -49,7 +49,7 @@ class DataHandler:
                 "MEAN":lambda x:x.mean(skipna=True)
             }
         }
-        return data.groupby(['stimulus', 'event']).agg(aggregation).reset_index()
+        return data.groupby(group_list).agg(aggregation).reset_index()
 
     @staticmethod
     def calc_data(data):
@@ -120,19 +120,19 @@ class DataHandler:
             test_subject.read_file()
             test_subject.set_stimuli_type()
             all_data += test_subject.get_stimuli_durations_as_list(test_subject.subject, test_subject.stimuli_duration)
-        self.write_csv(f"stimuli_durations_{filename}", all_data, header=['subject', 'stimulus', 'type', 'duration'])
+        self.write_csv(f"stimuli_durations_{filename}", all_data, header=['subject', 'stimulus', 'stype', 'duration'])
 
     def aggregate_exp_data(self, filename):
         data = self.read_csv(filename)
 
         dur_sum = self.aggregation(data, 'duration_sum')
-        self.write_csv('agg_dur_sum.csv', dur_sum)
+        self.write_csv('agg_dur_sum.csv', dur_sum, ['stimulus', 'event'])
 
         dur_avg = self.aggregation(data, 'duration_avg')
-        self.write_csv('agg_dur_avg.csv', dur_avg)
+        self.write_csv('agg_dur_avg.csv', dur_avg, ['stimulus', 'event'])
 
         count = self.aggregation(data, 'count')
-        self.write_csv('agg_count.csv', count)
+        self.write_csv('agg_count.csv', count, ['stimulus', 'event'])
 
     @staticmethod
     def cleanup_dataframe(dataframe):
