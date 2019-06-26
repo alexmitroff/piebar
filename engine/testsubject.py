@@ -96,7 +96,7 @@ class TestSubject:
     def get_stimulus_type(self, stimulus):
         if stimulus in self.stimuli_types:
             return self.stimuli_types[stimulus]
-        return "NaN"
+        return "additional"
 
     @property
     def stimuli_order(self):
